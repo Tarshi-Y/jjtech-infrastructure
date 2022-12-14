@@ -14,6 +14,6 @@ resource "aws_instance" "web" {
 
 
   tags = {
-    Name = "appinstance"
+    Name = "appinstance-instance"
   }
 }
