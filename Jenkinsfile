@@ -66,6 +66,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 slackSend channel: '#cicd-demo-eddy', message: 'deployment success'
+                slackSend channel: '#cicd-demo-eddy', color: 'blue', message: 'hello'
             }
         }
     }
