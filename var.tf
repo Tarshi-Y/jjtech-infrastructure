@@ -9,3 +9,9 @@ variable "instance_type" {
   default = "t3.micro"
 
 }
+
+variable "bucket_name" {
+    type = string
+    default = "eddytars-tabit"
+  
+}
