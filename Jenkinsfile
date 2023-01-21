@@ -30,7 +30,7 @@ pipeline {
                 sh "terraform plan"
             }
         }
-        stage('checkour-scan') {
+        stage('checkov-scan') {
             steps {
            sh """
            sudo pip3 install checkov
